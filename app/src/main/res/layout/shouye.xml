@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragment.ShouyeFragment">
+
+    <!--搜索-->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp">
+
+        <EditText
+            android:layout_width="330dp"
+            android:layout_height="45dp"
+            android:paddingLeft="10dp"
+            android:hint="请输入商品名称"
+            android:background="@drawable/sousuo"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginLeft="5dp"
+            android:text="搜索"/>
+    </LinearLayout>
+
+    <!--分类-->
+    <GridLayout
+        android:orientation="horizontal"
+        android:layout_width="380dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:background="#FD5151">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="89dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            >
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:src="#2E2929"/>
+
+            <Button
+                android:layout_width="58dp"
+                android:layout_height="31dp"
+                android:layout_marginTop="2dp"
+                android:layout_gravity="center"
+                android:background="#00000000"
+                android:padding="5dp"
+                android:text="服饰"
+                android:textSize="16dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="89dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="5dp"
+            >
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:src="#2E2929"/>
+
+            <Button
+                android:layout_width="58dp"
+                android:layout_height="31dp"
+                android:layout_marginTop="2dp"
+                android:layout_gravity="center"
+                android:background="#00000000"
+                android:padding="5dp"
+                android:text="数码"
+                android:textSize="16dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="89dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="5dp"
+            >
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:src="#2E2929"/>
+
+            <Button
+                android:layout_width="58dp"
+                android:layout_height="31dp"
+                android:layout_marginTop="2dp"
+                android:layout_gravity="center"
+                android:background="#00000000"
+                android:padding="5dp"
+                android:text="水果"
+                android:textSize="16dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="89dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="5dp"
+            >
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:src="#2E2929"/>
+
+            <Button
+                android:layout_width="58dp"
+                android:layout_height="31dp"
+                android:layout_marginTop="2dp"
+                android:layout_gravity="center"
+                android:background="#00000000"
+                android:padding="5dp"
+                android:text="图书"
+                android:textSize="16dp" />
+        </LinearLayout>
+
+
+    </GridLayout>
+
+    <GridLayout
+        android:orientation="horizontal"
+        android:layout_width="380dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:background="#FD5151">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="89dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            >
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:src="#2E2929"/>
+
+            <Button
+                android:layout_width="58dp"
+                android:layout_height="31dp"
+                android:layout_marginTop="2dp"
+                android:layout_gravity="center"
+                android:background="#00000000"
+                android:padding="5dp"
+                android:text="国际"
+                android:textSize="16dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="89dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="5dp"
+            >
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:src="#2E2929"/>
+
+            <Button
+                android:layout_width="58dp"
+                android:layout_height="31dp"
+                android:layout_marginTop="2dp"
+                android:layout_gravity="center"
+                android:background="#00000000"
+                android:padding="5dp"
+                android:text="超市"
+                android:textSize="16dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="89dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="5dp"
+            >
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:src="#2E2929"/>
+
+            <Button
+                android:layout_width="58dp"
+                android:layout_height="31dp"
+                android:layout_marginTop="2dp"
+                android:layout_gravity="center"
+                android:background="#00000000"
+                android:padding="5dp"
+                android:text="充值"
+                android:textSize="16dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="89dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="5dp"
+            >
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:src="#2E2929"/>
+
+            <Button
+                android:layout_width="58dp"
+                android:layout_height="31dp"
+                android:layout_marginTop="2dp"
+                android:layout_gravity="center"
+                android:background="#00000000"
+                android:padding="5dp"
+                android:text="会员"
+                android:textSize="16dp" />
+        </LinearLayout>
+
+
+    </GridLayout>
+    <!--商品-->
+
+    <LinearLayout
+        android:layout_width="380dp"
+        android:layout_height="130dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:background="#FD5151"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="115dp"
+            android:layout_height="110dp"
+            android:src="#020202"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="9dp"/>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="160dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="9dp"
+            android:layout_marginLeft="10dp">
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:text="这是一件非常牛逼的商品适合秋冬季"
+                android:textSize="16dp"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="￥：369 "
+                android:gravity="right"
+                android:textSize="20dp"/>
+        </LinearLayout>
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="110dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:text="加入购物车"
+            android:background="#00000000"
+            android:textSize="25dp"
+            android:gravity="center"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="380dp"
+        android:layout_height="130dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:background="#FD5151"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="115dp"
+            android:layout_height="110dp"
+            android:src="#020202"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="9dp"/>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="160dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="9dp"
+            android:layout_marginLeft="10dp">
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:text="这是一件非常牛逼的商品适合秋冬季"
+                android:textSize="16dp"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="￥：369 "
+                android:gravity="right"
+                android:textSize="20dp"/>
+        </LinearLayout>
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="110dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:text="加入购物车"
+            android:background="#00000000"
+            android:textSize="25dp"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".fragment.FaxianFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/image_view_bg"
+        android:orientation="vertical"
+        android:layout_width="380dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="360dp"
+            android:layout_height="60dp"
+            android:layout_marginBottom="50dp"
+            android:text="直液式走珠笔速干，流畅度非常棒，在太空也能书写，宇航员认证"
+            android:textColor="#000000"
+            android:textSize="17dp"
+            app:layout_constraintBottom_toBottomOf="@+id/image_view_bg"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="10dp" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/image_view_bg2"
+            android:orientation="horizontal"
+            android:layout_width="380dp"
+            android:layout_height="50dp"
+            tools:ignore="MissingConstraints"
+            app:layout_constraintBottom_toBottomOf="@+id/image_view_bg">
+            <TextView
+                android:layout_width="280dp"
+                android:layout_height="48dp"
+                android:text="惊爆价￥：66.6"
+                android:textSize="28dp"
+                app:layout_constraintStart_toStartOf="@id/image_view_bg2"
+                tools:ignore="NotSibling" />
+            <Button
+                android:layout_width="70dp"
+                android:layout_height="50dp"
+                app:layout_constraintEnd_toEndOf="@+id/image_view_bg2"
+                tools:ignore="NotSibling"
+                android:text="加入购物车"
+                android:background="#00000000"
+                android:textSize="20dp"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/image_view_bg3"
+        android:orientation="vertical"
+        android:layout_width="380dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:paddingTop="100dp">
+
+        <TextView
+            android:layout_width="360dp"
+            android:layout_height="60dp"
+            android:layout_marginBottom="50dp"
+            android:text="直液式走珠笔速干，流畅度非常棒，在太空也能书写，宇航员认证"
+            android:textColor="#000000"
+            android:textSize="17dp"
+            app:layout_constraintBottom_toBottomOf="@+id/image_view_bg3"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="10dp" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/image_view_bg4"
+            android:orientation="horizontal"
+            android:layout_width="380dp"
+            android:layout_height="50dp"
+            tools:ignore="MissingConstraints"
+            app:layout_constraintBottom_toBottomOf="@+id/image_view_bg3">
+            <TextView
+                android:layout_width="280dp"
+                android:layout_height="48dp"
+                android:text="惊爆价￥：66.6"
+                android:textSize="28dp"
+                app:layout_constraintStart_toStartOf="@id/image_view_bg4"
+                tools:ignore="NotSibling" />
+            <Button
+                android:layout_width="70dp"
+                android:layout_height="50dp"
+                app:layout_constraintEnd_toEndOf="@+id/image_view_bg4"
+                tools:ignore="NotSibling"
+                android:text="加入购物车"
+                android:background="#00000000"
+                android:textSize="20dp"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

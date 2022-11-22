@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#DD4661</color>
+    <color name="colorPrimaryDark">#DD4661</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="text_topbar">#FFFFFF</color>
+    <color name="text_menu">#8D7A71</color>
+    <color name="text_menu_selected">#DD4661</color>
+
+    <color name="bg_topbar">#DD4661</color>
+    <color name="bg_white">#FFFFFF</color>
+    <color name="bg_menu">#FFFFFF</color>
+    <color name="bg_menu_selected">#ECECEC</color>
+</resources>
